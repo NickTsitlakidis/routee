@@ -13,3 +13,4 @@ Modifications of that ruleset are the following :
  * Empty catch blocks are allowed
  * Sequential capital letters are allowed in names. (For example `codeISO3`)
  * Octal values and unicode escaped values are allowed (subject to change)
+ * Members are allowed to be named : SMS
