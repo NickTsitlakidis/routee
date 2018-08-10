@@ -4,8 +4,8 @@ The repository's intent is to keep the files that define the coding style of var
 [Routee](https://www.routee.net) projects.
 
 ### Java (java-checkstyle.xml)
-The code style is applied using the checkstyle development tool (http://checkstyle.sourceforge.net).
-Most of the rules are based on the [Google Java style guide] (https://google.github.io/styleguide/javaguide.html).
+The code style is applied using the [checkstyle development tool](http://checkstyle.sourceforge.net).
+Most of the rules are based on the [Google Java style guide](https://google.github.io/styleguide/javaguide.html).
 Modifications of that ruleset are the following : 
  * Methods annotated with `@Bean`, `@After`, `@Before` require no javadoc.
  * Constructors require no javadoc (subject to change)
