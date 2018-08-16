@@ -15,3 +15,4 @@ Modifications of that ruleset are the following :
  * Octal values and unicode escaped values are allowed (subject to change)
  * Members are allowed to be named : SMS
  * Line length limitations (120 characters) do not apply on lines which start with the `@PreAuthorize` annotation.
+ * Load errors in exception classes of javadoc blocks are suppressed
