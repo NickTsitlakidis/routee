@@ -10,9 +10,12 @@ Modifications of that ruleset are the following :
  * Methods annotated with `@Bean`, `@After`, `@Before` require no javadoc.
  * Constructors require no javadoc (subject to change)
  * Block indentation is using 4 spaces instead of 2
+ * Indentation for wrapped lines (continuation) is using 8 spaces
+ * whitespaceAround is disabled
+ * Javadoc allows paragraph tags on their own lines
  * Empty catch blocks are allowed
  * Sequential capital letters are allowed in names. (For example `codeISO3`)
  * Octal values and unicode escaped values are allowed (subject to change)
  * Members are allowed to be named : SMS
- * Line length limitations (120 characters) do not apply on lines which start with the `@PreAuthorize` annotation.
+ * Line length limitations (120 characters) do not apply on lines which start with the `@PreAuthorize` or `@ApiResponse` annotation.
  * Load errors in exception classes of javadoc blocks are suppressed
