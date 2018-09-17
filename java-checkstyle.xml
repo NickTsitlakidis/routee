@@ -210,7 +210,7 @@
             <property name="allowMissingThrowsTags" value="true"/>
             <property name="allowMissingReturnTag" value="true"/>
             <property name="minLineCount" value="2"/>
-            <property name="allowedAnnotations" value="Override, Test, Bean, Before, After"/>
+            <property name="allowedAnnotations" value="Override, Test, Bean, Before, After, BeforeEach, AfterEach, BeforeClas, AfterClass"/>
             <property name="allowThrowsTagsForSubclasses" value="true"/>
             <property name="suppressLoadErrors" value="true"/>
         </module>
