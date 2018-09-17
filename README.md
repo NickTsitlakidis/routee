@@ -7,7 +7,7 @@ The repository's intent is to keep the files that define the coding style of var
 The code style is applied using the [checkstyle development tool](http://checkstyle.sourceforge.net).
 Most of the rules are based on the [Google Java style guide](https://google.github.io/styleguide/javaguide.html).
 Modifications of that ruleset are the following : 
- * Methods annotated with `@Bean`, `@After`, `@Before` require no javadoc.
+ * Methods annotated with `@Bean`, `@After`, `@Before`, `@BeforeEach`, `@AfterEach`, `@BeforeClass`, `@AfterClass` require no javadoc.
  * Constructors require no javadoc (subject to change)
  * Block indentation is using 4 spaces instead of 2
  * Indentation for wrapped lines (continuation) is using 8 spaces
